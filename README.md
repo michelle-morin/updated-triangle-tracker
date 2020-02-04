@@ -13,9 +13,12 @@ _This application accepts input of three different length values, and outputs wh
 
 | Specification | Example Input | Example Output |
 | ------------- |:-------------:| -------------------:|
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Constructs a triangle object with three sides | 2, 4, 5 | side1: 2, side2: 4, side3: 5 |
+| Determines whether three lengths do not form a triangle | 3, 9, 22 | "not a triangle" |
+| Determines whether three lengths form a scalene triangle | 4, 5, 7 | "scalene triangle" |
+| Determines whether three lengths form an isosceles triangle | 5, 5, 7 | "isosceles triangle" |
+| Determines whether three lengths form an equilateral triangle | 5, 5, 5 | "equilateral triangle" |
+
 
 ## Setup/Installation Requirements
 
@@ -25,6 +28,9 @@ _This application accepts input of three different length values, and outputs wh
 _If Homebrew is not installed on your computer already, then install Homebrew by entering the following two commands in Terminal:_
 * $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 * $ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
+
+_Install Git with the following command:_
+* $ brew install git
 
 _Next, install Node.js by entering the following command in Terminal:_
 * $ brew install node
